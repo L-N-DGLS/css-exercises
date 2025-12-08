@@ -12,6 +12,32 @@ img {
   font-weight: 900;
 }
 
+/* Flexbox */
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.plants {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 52px;
+}
+
+.plant {
+  max-width: 200px;
+}
+
+
+
+
+
+
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
